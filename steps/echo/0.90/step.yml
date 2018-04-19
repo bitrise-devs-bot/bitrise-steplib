@@ -1,0 +1,30 @@
+title: Go Echo
+summary: Prints the given message
+description: Prints the given message.
+website: https://github.com/godrei/go-echo
+source_code_url: https://github.com/godrei/go-echo
+support_url: https://github.com/godrei/go-echo/issues
+published_at: 2018-04-19T18:45:15.132700447Z
+source:
+  git: https://github.com/godrei/go-echo.git
+  commit: 1f8ee2ee74628eb8eb816af28065cfe567c20ddc
+type_tags:
+- deploy
+toolkit:
+  go:
+    package_name: github.com/godrei/go-echo
+inputs:
+- message: null
+  opts:
+    description: Message to print.
+    summary: Message to print
+    title: Message
+- format: no_format
+  opts:
+    description: Message format.
+    summary: Message format
+    title: Message format
+    value_options:
+    - no_format
+    - upper
+    - lower
